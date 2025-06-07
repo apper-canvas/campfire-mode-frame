@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "projectId": "1",
+    "name": "Design System Guidelines.pdf",
+    "url": "/mock-files/design-system.pdf",
+    "size": 2048576,
+    "type": "application/pdf",
+    "uploadedBy": "Sarah Chen",
+    "uploadedAt": "2024-01-16T14:30:00Z"
+  },
+  {
+    "id": "2",
+    "projectId": "1",
+    "name": "Homepage Wireframes.fig",
+    "url": "/mock-files/homepage-wireframes.fig",
+    "size": 5242880,
+    "type": "application/figma",
+    "uploadedBy": "Sarah Chen",
+    "uploadedAt": "2024-01-17T11:20:00Z"
+  },
+  {
+    "id": "3",
+    "projectId": "1",
+    "name": "User Research Report.docx",
+    "url": "/mock-files/user-research.docx",
+    "size": 1536000,
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "uploadedBy": "Emma Wilson",
+    "uploadedAt": "2024-01-17T16:45:00Z"
+  },
+  {
+    "id": "4",
+    "projectId": "2",
+    "name": "App Architecture Diagram.png",
+    "url": "/mock-files/app-architecture.png",
+    "size": 891392,
+    "type": "image/png",
+    "uploadedBy": "Alex Rodriguez",
+    "uploadedAt": "2024-01-18T10:15:00Z"
+  },
+  {
+    "id": "5",
+    "projectId": "2",
+    "name": "API Documentation.json",
+    "url": "/mock-files/api-docs.json",
+    "size": 65536,
+    "type": "application/json",
+    "uploadedBy": "Alex Rodriguez",
+    "uploadedAt": "2024-01-18T13:30:00Z"
+  },
+  {
+    "id": "6",
+    "projectId": "2",
+    "name": "UI Mockups Collection.zip",
+    "url": "/mock-files/ui-mockups.zip",
+    "size": 15728640,
+    "type": "application/zip",
+    "uploadedBy": "Lisa Park",
+    "uploadedAt": "2024-01-19T09:45:00Z"
+  },
+  {
+    "id": "7",
+    "projectId": "3",
+    "name": "Brand Guidelines 2024.pdf",
+    "url": "/mock-files/brand-guidelines.pdf",
+    "size": 3145728,
+    "type": "application/pdf",
+    "uploadedBy": "Jennifer Lopez",
+    "uploadedAt": "2024-01-19T14:20:00Z"
+  },
+  {
+    "id": "8",
+    "projectId": "3",
+    "name": "Social Media Calendar.xlsx",
+    "url": "/mock-files/social-calendar.xlsx",
+    "size": 524288,
+    "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "uploadedBy": "David Kim",
+    "uploadedAt": "2024-01-20T08:30:00Z"
+  },
+  {
+    "id": "9",
+    "projectId": "3",
+    "name": "Campaign Assets.zip",
+    "url": "/mock-files/campaign-assets.zip",
+    "size": 25165824,
+    "type": "application/zip",
+    "uploadedBy": "Jennifer Lopez",
+    "uploadedAt": "2024-01-20T15:10:00Z"
+  },
+  {
+    "id": "10",
+    "projectId": "4",
+    "name": "Support Portal Sitemap.pdf",
+    "url": "/mock-files/portal-sitemap.pdf",
+    "size": 1048576,
+    "type": "application/pdf",
+    "uploadedBy": "Rachel Green",
+    "uploadedAt": "2024-01-20T12:40:00Z"
+  },
+  {
+    "id": "11",
+    "projectId": "4",
+    "name": "FAQ Content Draft.docx",
+    "url": "/mock-files/faq-draft.docx",
+    "size": 786432,
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "uploadedBy": "Rachel Green",
+    "uploadedAt": "2024-01-21T09:15:00Z"
+  },
+  {
+    "id": "12",
+    "projectId": "4",
+    "name": "Technical Requirements.md",
+    "url": "/mock-files/tech-requirements.md",
+    "size": 32768,
+    "type": "text/markdown",
+    "uploadedBy": "Steve Rogers",
+    "uploadedAt": "2024-01-21T11:50:00Z"
+  }
+]

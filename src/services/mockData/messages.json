@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "projectId": "1",
+    "title": "Design System Foundation",
+    "content": "We need to establish a solid design system before we start implementing the new website. This should include color palette, typography, spacing guidelines, and component library.\n\nI've been researching modern design trends and think we should go with a clean, minimalist approach that focuses on readability and accessibility.",
+    "author": "Sarah Chen",
+    "comments": [
+      {
+        "id": "c1",
+        "author": "Mike Johnson",
+        "content": "Great idea! I'll start working on the component library in Figma.",
+        "createdAt": "2024-01-16T10:30:00Z"
+      }
+    ],
+    "createdAt": "2024-01-16T09:15:00Z"
+  },
+  {
+    "id": "2",
+    "projectId": "1",
+    "title": "User Research Findings",
+    "content": "Just completed user interviews with 12 customers. Key findings:\n\n1. Current navigation is confusing - users can't find product info easily\n2. Mobile experience is frustrating - pages load slowly\n3. Contact form is too long - people abandon it\n4. Search functionality doesn't work well\n\nI'll be sharing the detailed report in our next meeting.",
+    "author": "Emma Wilson",
+    "comments": [],
+    "createdAt": "2024-01-17T14:20:00Z"
+  },
+  {
+    "id": "3",
+    "projectId": "2",
+    "title": "API Integration Progress",
+    "content": "Backend API integration is going well. We've successfully connected the user authentication system and are now working on the data synchronization features.\n\nExpected completion by end of week. The push notification system is next on the list.",
+    "author": "Alex Rodriguez",
+    "comments": [
+      {
+        "id": "c2",
+        "author": "Lisa Park",
+        "content": "Awesome progress! Let me know when you're ready for the UI integration testing.",
+        "createdAt": "2024-01-18T11:45:00Z"
+      }
+    ],
+    "createdAt": "2024-01-18T09:30:00Z"
+  },
+  {
+    "id": "4",
+    "projectId": "3",
+    "title": "Social Media Strategy Review",
+    "content": "Completed analysis of our social media performance over the past quarter. Instagram engagement is up 45%, but LinkedIn needs more attention.\n\nProposed strategy for Q1:\n- Focus on video content for Instagram and TikTok\n- Professional thought leadership posts for LinkedIn\n- Interactive polls and Q&As for Twitter\n\nBudget allocation document attached.",
+    "author": "Jennifer Lopez",
+    "comments": [],
+    "createdAt": "2024-01-19T13:10:00Z"
+  },
+  {
+    "id": "5",
+    "projectId": "4",
+    "title": "Support Ticket Categories",
+    "content": "Based on historical data, we should organize the support portal with these main categories:\n\n1. Account & Billing (35% of tickets)\n2. Technical Issues (28% of tickets)\n3. Product Questions (22% of tickets)\n4. Feature Requests (15% of tickets)\n\nThis should help customers find answers faster and reduce ticket volume.",
+    "author": "Rachel Green",
+    "comments": [
+      {
+        "id": "c3",
+        "author": "Steve Rogers",
+        "content": "This breakdown makes perfect sense. Should we also add a 'Getting Started' section for new users?",
+        "createdAt": "2024-01-20T15:20:00Z"
+      }
+    ],
+    "createdAt": "2024-01-20T11:30:00Z"
+  }
+]
