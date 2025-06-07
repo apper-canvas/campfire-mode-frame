@@ -133,7 +133,6 @@ function App() {
         progressClassName="bg-primary"
       />
     </Router>
-</Router>
   );
 }
 
