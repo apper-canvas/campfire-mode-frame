@@ -1,7 +1,7 @@
-import Home from '../pages/Home';
-import Projects from '../pages/Projects';
-import MyAssignments from '../pages/MyAssignments';
-import Team from '../pages/Team';
+import Home from '@/pages/Home';
+import Projects from '@/pages/Projects';
+import MyAssignments from '@/pages/MyAssignments';
+import Team from '@/pages/Team';
 
 export const routes = {
   home: {
