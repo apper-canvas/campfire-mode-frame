@@ -17,12 +17,17 @@ const Sidebar = ({ routes, activeRoute, onRouteChange, isOpen, onToggle }) => {
         onClick={onToggle}
       />
       
-      {/* Sidebar */}
+{/* Sidebar */}
       <motion.aside
         initial={{ x: -280 }}
-        animate={{ x: isOpen ? 0 : -280 }}
+        animate={{ 
+          x: isOpen ? 0 : -280 
+        }}
         transition={{ duration: 0.3, ease: 'easeOut' }}
-        className="fixed lg:static top-0 left-0 z-40 w-70 h-screen bg-white border-r border-gray-200 lg:translate-x-0"
+        className="fixed lg:static top-0 left-0 z-40 w-80 h-screen bg-white border-r border-gray-200 lg:translate-x-0 lg:block"
+        style={{ 
+          transform: window.innerWidth >= 1024 ? 'translateX(0)' : undefined 
+        }}
       >
         <div className="p-6 border-b border-gray-200">
           <div className="flex items-center space-x-3">
