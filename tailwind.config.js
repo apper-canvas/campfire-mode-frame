@@ -51,15 +51,39 @@ borderRadius: { xl: '0.75rem', '2xl': '1rem' },
       }
     },
   },
-  plugins: [
+plugins: [
     function({ addUtilities }) {
       addUtilities({
         '.scrollbar-thin': {
           'scrollbar-width': 'thin',
-          'scrollbar-color': '#cbd5e1 transparent',
+          'scrollbar-color': '#cbd5e1 #f8fafc',
         },
         '.scrollbar-auto': {
           'scrollbar-width': 'auto',
+          'scrollbar-color': '#cbd5e1 #f8fafc',
+        },
+        '.scrollbar-thin-auto': {
+          'scrollbar-width': 'thin',
+          'scrollbar-color': '#cbd5e1 #f8fafc',
+          '&::-webkit-scrollbar': {
+            width: '8px',
+            height: '8px',
+          },
+          '&::-webkit-scrollbar-track': {
+            background: '#f8fafc',
+            'border-radius': '4px',
+          },
+          '&::-webkit-scrollbar-thumb': {
+            'background-color': '#cbd5e1',
+            'border-radius': '4px',
+            border: '1px solid #f8fafc',
+          },
+          '&::-webkit-scrollbar-thumb:hover': {
+            'background-color': '#94a3b8',
+          },
+          '&::-webkit-scrollbar-corner': {
+            background: '#f8fafc',
+          },
         },
         '.scrollbar-thumb-gray': {
           '&::-webkit-scrollbar': {

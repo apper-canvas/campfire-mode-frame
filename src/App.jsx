@@ -66,9 +66,8 @@ const MainLayout = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   
   const currentRoute = routes[activeRoute];
-
 return (
-    <div className="flex h-screen bg-surface-100 overflow-hidden">
+    <div className="flex min-h-screen bg-surface-100">
       <Sidebar
         routes={routeArray}
         activeRoute={activeRoute}
@@ -90,9 +89,9 @@ return (
             <h2 className="font-heading font-semibold text-gray-900">{currentRoute.label}</h2>
             <div className="w-10" />
           </div>
-        </header>
+</header>
 {/* Main content */}
-        <main className="flex-1 overflow-y-auto scrollbar-thin-auto">
+        <main className="flex-1">
           <AnimatePresence mode="wait">
             <motion.div
               key={activeRoute}
@@ -134,6 +133,7 @@ function App() {
         progressClassName="bg-primary"
       />
     </Router>
+</Router>
   );
 }
 

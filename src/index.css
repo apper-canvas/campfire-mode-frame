@@ -8,11 +8,12 @@
   html {
     font-family: Inter, ui-sans-serif, system-ui;
   }
+}
   
 body {
     @apply bg-surface-100 text-gray-900;
+    @apply scrollbar-thin-auto;
   }
-}
 
 @layer utilities {
   .scrollbar-hide {
