@@ -1,14 +1,14 @@
-import Home from '@/pages/Home';
+import HomePage from '@/components/pages/HomePage';
 import Projects from '@/pages/Projects';
 import MyAssignments from '@/pages/MyAssignments';
 import Team from '@/pages/Team';
 
 export const routes = {
-  home: {
+home: {
     id: 'home',
     label: 'Home',
     icon: 'Home',
-    component: Home,
+    component: HomePage,
     path: '/'
   },
   projects: {
