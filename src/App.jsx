@@ -28,8 +28,8 @@ const Sidebar = ({ routes, activeRoute, onRouteChange, isOpen, onToggle }) => {
         style={{ 
           transform: window.innerWidth >= 1024 ? 'translateX(0)' : undefined 
         }}
-      >
-        <div className="p-6 border-b border-gray-200">
+>
+        <div className="p-4 border-b border-gray-200">
           <div className="flex items-center space-x-3">
             <div className="w-8 h-8 bg-gradient-to-br from-accent to-primary rounded-lg flex items-center justify-center">
               <ApperIcon name="Flame" className="w-5 h-5 text-white" />
@@ -38,7 +38,7 @@ const Sidebar = ({ routes, activeRoute, onRouteChange, isOpen, onToggle }) => {
           </div>
         </div>
         
-        <nav className="p-4 space-y-2">
+        <nav className="flex-1 overflow-y-auto scrollbar-thin-auto p-3 space-y-1">
           {routes.map((route) => (
             <motion.button
               key={route.id}
@@ -67,8 +67,8 @@ const MainLayout = () => {
   
   const currentRoute = routes[activeRoute];
 
-  return (
-    <div className="flex h-screen bg-surface-100">
+return (
+    <div className="flex h-screen bg-surface-100 overflow-hidden">
       <Sidebar
         routes={routeArray}
         activeRoute={activeRoute}
@@ -77,7 +77,7 @@ const MainLayout = () => {
         onToggle={() => setSidebarOpen(!sidebarOpen)}
       />
       
-      <div className="flex-1 flex flex-col overflow-hidden">
+      <div className="flex-1 flex flex-col min-w-0">
         {/* Mobile header */}
         <header className="lg:hidden bg-white border-b border-gray-200 p-4">
           <div className="flex items-center justify-between">
@@ -91,9 +91,8 @@ const MainLayout = () => {
             <div className="w-10" />
           </div>
         </header>
-        
-        {/* Main content */}
-        <main className="flex-1 overflow-hidden">
+{/* Main content */}
+        <main className="flex-1 overflow-y-auto scrollbar-thin-auto">
           <AnimatePresence mode="wait">
             <motion.div
               key={activeRoute}
@@ -101,7 +100,7 @@ const MainLayout = () => {
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -20 }}
               transition={{ duration: 0.3 }}
-              className="h-full"
+              className="min-h-full"
             >
               <currentRoute.component />
             </motion.div>

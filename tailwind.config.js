@@ -40,12 +40,43 @@ boxShadow: {
         'neu-light': '5px 5px 15px #d1d9e6, -5px -5px 15px #ffffff',
         'neu-dark': '5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.05)'
       },
-      borderRadius: { xl: '0.75rem', '2xl': '1rem' },
+borderRadius: { xl: '0.75rem', '2xl': '1rem' },
       gridTemplateColumns: {
         'sidebar': '280px 1fr',
         'project': '1fr 300px'
+      },
+      spacing: {
+        '18': '4.5rem',
+        '88': '22rem'
       }
     },
   },
-  plugins: [],
+  plugins: [
+    function({ addUtilities }) {
+      addUtilities({
+        '.scrollbar-thin': {
+          'scrollbar-width': 'thin',
+          'scrollbar-color': '#cbd5e1 transparent',
+        },
+        '.scrollbar-auto': {
+          'scrollbar-width': 'auto',
+        },
+        '.scrollbar-thumb-gray': {
+          '&::-webkit-scrollbar': {
+            width: '6px',
+          },
+          '&::-webkit-scrollbar-track': {
+            background: 'transparent',
+          },
+          '&::-webkit-scrollbar-thumb': {
+            'background-color': '#cbd5e1',
+            'border-radius': '3px',
+          },
+          '&::-webkit-scrollbar-thumb:hover': {
+            'background-color': '#94a3b8',
+          },
+        },
+      });
+    },
+  ],
 }
