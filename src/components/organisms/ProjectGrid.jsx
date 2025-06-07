@@ -1,10 +1,10 @@
 import React from 'react';
-import { toast } => 'react-toastify';
-import Button from '@/components/atoms/Button';
-import ProjectCard from '@/components/molecules/ProjectCard';
-import LoadingSkeleton from '@/components/organisms/LoadingSkeleton';
-import EmptyState from '@/components/organisms/EmptyState';
-import ApperIcon from '@/components/ApperIcon';
+import { toast } from 'react-toastify';
+import Button from '../atoms/Button';
+import ProjectCard from '../molecules/ProjectCard';
+import LoadingSkeleton from './LoadingSkeleton';
+import EmptyState from './EmptyState';
+import ApperIcon from '../ApperIcon';
 
 const ProjectGrid = ({ projects, loading, onProjectClick, onCreateProject }) => {
     return (
